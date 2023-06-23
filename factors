@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+from sys import argv
+import linecache as lc
+from sympy import factorint
+with open(argv[1], 'r') as file:
+    for i in file:
+        for j in range(0, i):
+            if i % j = 0:
